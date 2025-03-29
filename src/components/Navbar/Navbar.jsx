@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Images from "../Images";
 import './Navbar.css';
-import myntraLogo from "../myntra.png";
+import snitchifylogo from "../Snitchify.png.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faSearch, faUser, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { useSelector } from "react-redux";
@@ -9,7 +9,7 @@ import Modal from "../Product/Modal"
 import Cart from "../Product/Cart";
 import { NavLink } from "react-router-dom";
 
-const menu = ["Mens", "Womens", "Kids", "Home & Living", "Offer"];
+const menu = ["Mens", "Womens", "Kids",  "Offer"];
 
 const Navbar = () => {
 	const [showWishlist, setShowWishlist] = useState(false)
@@ -23,7 +23,7 @@ const Navbar = () => {
 				<input type="checkbox" id="nav-check" />
 				<div className="nav-header">
 					<div className="nav-title">
-						<NavLink to="/"><img src={myntraLogo} alt="logo" height="50px" /></NavLink>
+						<NavLink to="/"><img src={snitchifylogo} alt="logo" height="150px" /></NavLink>
 					</div>
 				</div>
 				<div className="nav-btn">

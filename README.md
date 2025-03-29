@@ -1,4 +1,4 @@
-# Myntra clone Assignment
+# snitchify clone Assignment
 
 Step 1: clone this repository
 

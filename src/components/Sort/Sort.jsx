@@ -26,7 +26,7 @@ const Sort = () => {
           </select>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 

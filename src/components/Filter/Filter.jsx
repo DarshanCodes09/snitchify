@@ -161,4 +161,4 @@ const selectCategory = (category) => {
   );
 };
 
-export default Filter;
+export default Filter; 
